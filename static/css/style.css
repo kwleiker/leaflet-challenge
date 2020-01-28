@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+.info {
+    padding: 12px 12px;
+    background: #5EABED;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.legend {
+    line-height: 20px;
+    color: #FACADE; 
+}
+/* having the mismatch (16 above, 18 below) puts a line between the boxes. */ 
+.legend i {
+    width: 24px;
+    height: 17px;
+    float: right;
+    margin-left: 10px; 
+    opacity: 1;
+    border-radius: 2px;
+}
